@@ -9,9 +9,6 @@ let winner = [
 ];
 
 let board_array = new Array(9).fill("E");
-//   0.  1.  2.  3.  4.  5.  6.  7.  8
-// ["E","E","E","E","E","E","E","E","E"]
-
 
 function checkWinner(){
    
@@ -28,7 +25,6 @@ function checkWinner(){
 
 
 
-// Print sahi se ho rha hai....
 
 const printer = (event)=>{
    
@@ -93,6 +89,3 @@ Restart.addEventListener('click',()=>{
    board.addEventListener('click',printer);
 
 })
-
-
-// Homework Project: Rock paper scissor
